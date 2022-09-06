@@ -1,0 +1,19 @@
+{
+  "name": "readymagic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc-watch --onSuccess 'browserify ./lib/index.js -o ./lib/sketch.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "p5": "^1.4.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.4.2"
+  }
+}
